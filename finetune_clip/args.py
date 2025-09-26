@@ -1,0 +1,19 @@
+class Args:
+    seed = 1
+    root_path = r"path/to/finetune_clip"
+    dataset = 'piying'
+    shots = 16
+    backbone = 'ViT-B/16'
+    lr = 2e-4
+    n_iters = 200
+    batch_size = 32
+    position = "all"
+    encoder = "both"
+    params = ['q', 'k', 'v']
+    r = 2
+    alpha = 1
+    dropout_rate = 0.25
+    save_path = r"path/to/savep"
+    filename = 'lora_weights'
+    eval_only = False
+    classes = ["生", "旦", "净", "末", "丑"]
